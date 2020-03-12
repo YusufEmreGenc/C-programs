@@ -1,0 +1,27 @@
+read matrix m1.mat 3 3
+1 1 1
+1 2 1
+1 1 1
+matrix paded m1 4 4
+1 1 1 1
+1 2 1 2
+1 1 1 1
+1 2 1 2
+read vector v1.vec 10
+7 1 9 4 6 8 1 9 1 9
+vector sliced v10 4
+7 1 9 4
+matrix and vector concatenated m1 5 4
+1 1 1 1
+1 2 1 2
+1 1 1 1
+1 2 1 2
+7 1 9 4
+created vector v11 5
+0 0 0 0 0
+matrix and vector concatenated m1 5 5
+1 1 1 1 0
+1 2 1 2 0
+1 1 1 1 0
+1 2 1 2 0
+7 1 9 4 0

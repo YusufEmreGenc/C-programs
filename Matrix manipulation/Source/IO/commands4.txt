@@ -1,0 +1,10 @@
+matzeros m9 3 4
+padval m9 1 1 1
+matread m5.mat
+matstack m9 m5 r
+matslicecol m9 5 0 4 v7
+matslicecol m9 6 0 4 v8
+vecstack v7 v8 row m10
+vecstack v7 v8 column m11
+hatali satir
+

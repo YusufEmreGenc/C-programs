@@ -1,0 +1,26 @@
+addseat flight economy 5
+addseat flight cargo 3
+enqueue flight business 1
+enqueue flight business 2
+enqueue flight business 4 diplomat
+enqueue flight business 3 diplomat
+enqueue flight economy 5 vet
+sell flight
+close hah flight
+enqueue flight standard psg_std_1 diplomat
+info x2 1
+info 1 2 3
+enqueue flight standard psg_std_2 veteran
+addseat flight business 2
+sell flight
+report flight
+enqueue flight business 10 diplomat
+enqueue flight standard 5
+enqueue flight economy 6
+enqueue flight economy 7 veteran
+enqueue flight economy 8
+enqueue flight economy 9 veteran
+addseat flight standard 3
+sell flight
+close flight
+report flight

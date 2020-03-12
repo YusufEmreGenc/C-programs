@@ -1,0 +1,26 @@
+addseat tk0646 economy 1
+addseat sunExp standard 9.5
+enqueue sunExp standard abdullah
+addseat sunExp business 1
+addseat sunExp economy 1
+addseat tk0646 standard 1
+addseat tk0646 business 1
+kapat sunExp
+enqueue sunExp standard psg_bus_30
+enqueue sunExp business psg_eco_5
+enqueue sunExp economy psg_eco_3
+enqueue sunExp business psg_bus_5
+enqueue sunExp economy psg_bus_3
+report sunExp
+sell sunExp
+close sunExp
+report sunExp
+addseat sunExp economy 1
+enqueue tk0646 economy psg_vet_3 veteran
+enqueue tk0646 economy psg_dip_3 diplomat
+enqueue tk0646 business psg_dip_3 diplomat
+sell tk0646
+enqueue sunExp economy psg_eco_15
+sell sunExp
+report sunExp
+close sunExp

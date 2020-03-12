@@ -1,0 +1,32 @@
+created matrix m9 3 4
+0 0 0 0
+0 0 0 0
+0 0 0 0
+matrix paded m9 4 5
+0 0 0 0 1
+0 0 0 0 1
+0 0 0 0 1
+1 1 1 1 1
+read matrix m5.mat 4 8
+ 12  14 -13  32  54  32  98  11
+  2  22  14  25 -12   0   0  -1
+ 54 -36  98  25  45  65 -52  54
+  1  -2   3   4   5  -6   7   8
+matrices concatenated m9 4 13
+  0   0   0   0   1  12  14 -13  32  54  32  98  11
+  0   0   0   0   1   2  22  14  25 -12   0   0  -1
+  0   0   0   0   1  54 -36  98  25  45  65 -52  54
+  1   1   1   1   1   1  -2   3   4   5  -6   7   8
+vector sliced v7 4
+12  2 54  1
+vector sliced v8 4
+ 14  22 -36  -2
+vectors concatenated m10 2 4
+ 12   2  54   1
+ 14  22 -36  -2
+vectors concatenated m11 4 2
+ 12  14
+  2  22
+ 54 -36
+  1  -2
+error

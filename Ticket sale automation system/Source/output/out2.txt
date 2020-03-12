@@ -1,0 +1,39 @@
+error
+error
+addseats pg6534 1 0 0
+error
+error
+error
+error
+queue pg6534 psg_eco_1 economy 1
+sold pg6534 0 0 0
+addseats pg6534 1 1 0
+sold pg6534 0 1 0
+queue pg6534 psg_bus_1 business 1
+queue pg6534 psg_dip_1 business 2
+addseats pg6534 1 1 1
+sold pg6534 1 1 1
+closed pg6534 3 0
+report pg6534
+business 1
+psg_dip_1
+economy 1
+psg_eco_1
+standard 1
+psg_bus_1
+end of report pg6534
+addseats tk4066 0 0 1
+queue tk4066 psg_bus_2 business 1
+queue tk4066 psg_dip_2 business 2
+error
+sold tk4066 0 0 1
+closed tk4066 1 1
+waiting psg_bus_2
+report tk4066
+business 0
+economy 0
+standard 1
+psg_dip_2
+end of report tk4066
+error
+info psg_dip_2 tk4066 business standard

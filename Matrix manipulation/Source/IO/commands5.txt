@@ -1,0 +1,21 @@
+matread m3.mat
+veczeros v10 6
+matzeros m10 3 6
+matzeros m12 4 4
+vecread v2.vec
+matstack m12 m3 d
+matstack m12 m3 r
+mvstack m10 v10 d
+pad m12 4 6 maximum
+padval m12 6 6 1
+vecslice v2 2 4 v3
+matslicecol m12 1 0 4 v4
+matslicerow m12 2 1 5 v5
+matslice m12 3 6 2 5 m4
+dot m12 m3
+padval m4 1 3 2
+add m4 m10
+multiply m10 m4
+subtract m4 m10
+matread m5.mat
+pad m5 2 0 minimum

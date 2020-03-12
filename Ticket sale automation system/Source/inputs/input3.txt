@@ -1,0 +1,26 @@
+addseat tk5350 economy 1
+enqueue tk5351 economy yolcu_2 veteran
+info yolcu_2
+addseat tk5351 economy 3
+addseat tk5350 standard psg_std_1
+addseat tk5350 business 1
+enqueue tk5350 economy 30
+sell tk5351
+enqueue tk5350 economy psg_eco_1 veteran
+enqueue tk5350 business psg_bus_1
+enqueue tk5351 economy yolcu
+enqueue tk5350 business 2 diplomat
+sell tk5350
+enqueue tk5351 economy yolcu_2 diplomat
+report tk5350
+enqueue tk5350 economy psg_eco_3 veteran
+enqueue tk5350 business psg_bus_3 diplomat
+addseat tk5350 economy 1
+close tk5351
+addseat tk5350 business 3
+enqueue tk5351 economy yolcu_2 veteran
+sell tk5350
+report tk5351
+close tk5350
+sell tk5351
+info 1

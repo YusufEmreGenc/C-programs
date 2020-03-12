@@ -1,0 +1,26 @@
+info psg_err_1
+addseat tk4066 economy 2 veteran
+addseat pg6534 business 1
+close a pg6534
+close pg6534 fast
+enqueue tk4066 economy psg_eco_1 veteran
+info psg_err_1
+enqueue pg6534 economy psg_eco_1 veteran
+sell pg6534
+addseat pg6534 economy 1
+sell pg6534
+enqueue pg6534 business psg_bus_1
+enqueue pg6534 business psg_dip_1 diplomat
+addseat pg6534 standard 1
+sell pg6534
+close pg6534
+report pg6534
+addseat tk4066 standard 1
+enqueue tk4066 business psg_bus_2
+enqueue tk4066 business psg_dip_2 diplomat
+info tk4066
+sell tk4066
+close tk4066
+report tk4066
+report psg_dip_2
+info psg_dip_2

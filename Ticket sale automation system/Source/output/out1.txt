@@ -1,0 +1,45 @@
+addseats tk0646 0 1 0
+error
+error
+addseats sunExp 1 0 0
+addseats sunExp 1 1 0
+addseats tk0646 0 1 1
+addseats tk0646 1 1 1
+error
+queue sunExp psg_bus_30 standard 1
+queue sunExp psg_eco_5 business 1
+queue sunExp psg_eco_3 economy 1
+queue sunExp psg_bus_5 business 2
+queue sunExp psg_bus_3 economy 2
+report sunExp
+business 0
+economy 0
+standard 0
+end of report sunExp
+sold sunExp 1 1 0
+closed sunExp 2 3
+waiting psg_bus_5
+waiting psg_bus_3
+waiting psg_bus_30
+report sunExp
+business 1
+psg_eco_5
+economy 1
+psg_eco_3
+standard 0
+end of report sunExp
+error
+queue tk0646 psg_vet_3 economy 1
+error
+queue tk0646 psg_dip_3 business 1
+sold tk0646 1 1 0
+error
+error
+report sunExp
+business 1
+psg_eco_5
+economy 1
+psg_eco_3
+standard 0
+end of report sunExp
+error

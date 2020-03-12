@@ -1,0 +1,46 @@
+addseats flight 0 5 0
+error
+queue flight 1 business 1
+queue flight 2 business 2
+queue flight 4 business 3
+queue flight 3 business 4
+error
+sold flight 0 0 0
+error
+error
+error
+error
+error
+addseats flight 2 5 0
+sold flight 2 0 0
+report flight
+business 2
+4
+3
+economy 0
+standard 0
+end of report flight
+queue flight 10 business 3
+queue flight 5 standard 1
+queue flight 6 economy 1
+queue flight 7 economy 2
+queue flight 8 economy 3
+queue flight 9 economy 4
+addseats flight 2 5 3
+sold flight 2 4 3
+closed flight 9 1
+waiting 2
+report flight
+business 2
+4
+3
+economy 4
+7
+9
+6
+8
+standard 3
+5
+10
+1
+end of report flight

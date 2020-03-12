@@ -1,0 +1,7 @@
+matread m3.mat
+matread m4.mat
+subtract m3 m4
+matslice m4 5 9 0 3 m8
+matslicerow m4 1 2 6 v7
+mvstack m8 v7 d
+subtract m3 m8

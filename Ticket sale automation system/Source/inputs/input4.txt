@@ -1,0 +1,26 @@
+addseat 1 tk0607 economy 2
+enqueue tk0607 economy psg_err_1
+close tk0607
+addseat tk3435 ekonomi 2
+addseat tk0607 economy 1
+enqueue tk0607 veteran economy 500
+addseat tk3435 standart 3
+close trump tk0607
+addseat tk3435 business a
+report tk3435
+report tk0607
+addseat tk3435 standard 3
+info 500
+enqueue tk3435 standart psg_err_4
+enqueue tk0607 economy psg_err_1
+enqueue tk3435 economy psg_err_5 gazi
+sell tk0607 tk3435
+close tk0607 tk3435
+report tk0607 tk3435
+enqueue tk0607 economy 500
+info 500
+report 500
+sell aa tk0607
+close tk0607
+sell tk0607
+report tk0607

@@ -1,0 +1,36 @@
+error
+error
+error
+error
+addseats tk0607 0 1 0
+error
+error
+error
+error
+error
+report tk0607
+business 0
+economy 0
+standard 0
+end of report tk0607
+addseats tk3435 0 0 3
+error
+error
+queue tk0607 psg_err_1 economy 1
+error
+error
+error
+error
+queue tk0607 500 economy 2
+info 500 tk0607 economy none
+error
+error
+closed tk0607 0 2
+waiting psg_err_1
+waiting 500
+error
+report tk0607
+business 0
+economy 0
+standard 0
+end of report tk0607

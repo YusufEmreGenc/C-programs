@@ -1,0 +1,8 @@
+matread m2.mat
+padval m2 1 1 2
+padval m2 1 1 3
+matzeros m7 5 4
+padval m7 1 2 1
+
+add m7 m2
+multiply m7 m2
